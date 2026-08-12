@@ -1,3 +1,5 @@
 streamlit
-PyPDF2
 pandas
+google-genai
+python-dotenv
+PyPDF2
