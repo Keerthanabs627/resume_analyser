@@ -34,6 +34,7 @@ if uploaded_file:
     text = extract_text(uploaded_file)
 
     # Extract email
+    #re=regex
     email_match = re.search(
         r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}',
         text
