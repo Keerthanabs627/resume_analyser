@@ -1,5 +1,7 @@
 from google import genai
 from dotenv import load_dotenv
+#import os
+#Imports Python's standard os module, used here to read environment variables
 import os
 
 load_dotenv()
